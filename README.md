@@ -1,2 +1,2 @@
-# SpiceLoom--Restaurant
+# SpiceLoom-Restaurant
 Where Fusion Meets Flavor
