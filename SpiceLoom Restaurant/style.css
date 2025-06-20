@@ -1,0 +1,226 @@
+:root{
+    --yellow:#FFC54D;
+    --green:green;
+    --red:crimson;
+    --white:whitesmoke;
+}
+
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing{
+    background-image: url("../ASSETS/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color: var(--white);
+}
+
+header a{
+    text-decoration:none ;
+    color:var(--yellow);
+}
+header{
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    min-width: 260px;
+}
+
+nav{
+
+    flex:2;
+    display:flex ;
+    align-items: center;
+    min-width: 120px;
+
+}
+
+nav a{
+    flex: 1;
+}
+
+nav a:hover{
+    color:var(--green);
+}
+
+.maintext{
+
+    display: flex;
+    flex-direction: column;
+    height:50vh ;
+    justify-content: center;
+    padding: 2em;
+}
+
+.tagline1{
+    color:var(--white);
+    font-size: 3em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: rgb(224, 224, 36);
+    font-size: 1em;
+}
+
+.maintext div{
+    margin-top: 0.75em;
+}
+
+.maintext button{
+        width:20vw;
+        margin-top: 2em;
+        border-radius: 10px;
+        padding: 0.7em;
+        background-color:green;
+        color:var(--white);
+        border: 1px solid darkgreen;
+
+    }
+
+.menu{
+    display: grid;
+ background: linear-gradient(to bottom, #5c0a0a);
+background-size: cover;
+grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+color: var(--white);
+
+
+
+}
+
+#menuheading,#locheading{
+
+    color: var(--yellow);
+ background: linear-gradient(to bottom, #5c0a0a);
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.menu th{
+
+    color: orange;
+
+
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+
+.menu tr{
+    display: flex;
+    justify-content: center;
+   margin-top: 0.8em;
+}
+
+.menu td:nth-child(1){
+
+    justify-self: left;
+    flex: 1;
+}
+.menu td:nth-child(2){
+
+    justify-self: right;
+}
+
+.maincourse{
+    grid-row:span 2;
+    
+}
+
+.locations{
+ background: linear-gradient(to bottom, #5c0a0a);
+background-size: cover;
+color:var(--white);
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.locations h2{
+    color: orange;
+    margin-bottom:0.8em ;
+
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+
+}
+
+footer{
+    color: var(--white);
+  background: linear-gradient(to bottom, #5c0a0a);
+background-size: cover;
+padding:0.25em 1em;
+}
+
+header nav i,header a
+h2 i{
+    margin-right: 0.5em;
+}
+
+.social-menu ul{
+    display: flex;
+    padding:0;
+}
+
+.social-menu ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 25px;
+    line-height: 40px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+    
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #4267B2;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #00ACEE;
+}
+
+.copyright{
+    margin-left:1.5em;
+    margin-bottom: 0.5em;
+}
